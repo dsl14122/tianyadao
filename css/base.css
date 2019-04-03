@@ -1,0 +1,69 @@
+body,
+div,
+span,
+p,
+a,
+img,
+ul,
+li,
+dl,
+dd,
+dt,
+input,
+del,
+i,
+em,
+ins,
+h1,
+h2,
+h3,
+h4,
+strong{
+     margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 14px/100% '微软雅黑';
+    background-color: #f6f6f6;
+}
+li{
+    list-style:none;
+}
+img{
+    border: 0;
+    vertical-align: middle;
+}
+input{
+    outline: none;
+    border:none;
+}
+a{
+    text-decoration: none;
+     color: #000;
+}
+h1,
+h2,
+h3,
+h4{
+    font-weight: normal;
+}
+i{
+    font-style: normal;
+}
+
+.clearfix::after{
+    content: '.';
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;
+}
+
+
+
+
+
